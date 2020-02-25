@@ -1,0 +1,186 @@
+2020-02-25 17:25:24.4683 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:29.8352 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:33.2666 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:36.5216 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:39.7887 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:43.0640 Error ElasticSearch: Failed to send log messages. status= Exception: Elasticsearch.Net.ElasticsearchClientException: Failed to ping the specified node.. Call: Status code unknown from: HEAD /
+ ---> Elasticsearch.Net.PipelineException: Failed to ping the specified node.
+ ---> Elasticsearch.Net.PipelineException: An error occurred trying to write the request data to the specified node.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.Ping(Node node)
+   at Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2020-02-25 17:25:45.6278 Error ElasticSearch: Error while sending log messages Exception: Elasticsearch.Net.UnexpectedElasticsearchClientException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+ ---> System.InvalidOperationException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+   at System.RuntimeType.get_DeclaringMethod()
+   at Serialize(Byte[][] , Object[] , JsonWriter& , RuntimeType , IJsonFormatterResolver )
+   at Elasticsearch.Net.Utf8Json.Resolvers.DynamicMethodAnonymousFormatter`1.Serialize(JsonWriter& writer, T value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DictionaryFormatterBase`5.Serialize(JsonWriter& writer, TDictionary value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.SerializeUnsafe[T](T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.Serialize[T](Stream stream, T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.LowLevelRequestResponseSerializer.Serialize[T](T data, Stream writableStream, SerializationFormatting formatting)
+   at Elasticsearch.Net.DiagnosticsSerializerProxy.Serialize[T](T data, Stream stream, SerializationFormatting formatting)
+   at Elasticsearch.Net.PostData`1.Write(Stream writableStream, IConnectionConfigurationValues settings)
+   at Elasticsearch.Net.HttpConnection.SetContent(HttpRequestMessage message, RequestData requestData)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   at Elasticsearch.Net.RequestPipeline.CallElasticsearch[TResponse](RequestData requestData)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.DoRequest[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.Bulk[TResponse](PostData body, BulkRequestParameters requestParameters)
+   at NLog.Targets.ElasticSearch.ElasticSearchTarget.SendBatch(ICollection`1 logEvents)
+2020-02-25 17:25:46.3140 Error ElasticSearch: Error while sending log messages Exception: Elasticsearch.Net.UnexpectedElasticsearchClientException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+ ---> System.InvalidOperationException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+   at System.RuntimeType.get_DeclaringMethod()
+   at Serialize(Byte[][] , Object[] , JsonWriter& , RuntimeType , IJsonFormatterResolver )
+   at Elasticsearch.Net.Utf8Json.Resolvers.DynamicMethodAnonymousFormatter`1.Serialize(JsonWriter& writer, T value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DictionaryFormatterBase`5.Serialize(JsonWriter& writer, TDictionary value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.SerializeUnsafe[T](T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.Serialize[T](Stream stream, T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.LowLevelRequestResponseSerializer.Serialize[T](T data, Stream writableStream, SerializationFormatting formatting)
+   at Elasticsearch.Net.DiagnosticsSerializerProxy.Serialize[T](T data, Stream stream, SerializationFormatting formatting)
+   at Elasticsearch.Net.PostData`1.Write(Stream writableStream, IConnectionConfigurationValues settings)
+   at Elasticsearch.Net.HttpConnection.SetContent(HttpRequestMessage message, RequestData requestData)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   at Elasticsearch.Net.RequestPipeline.CallElasticsearch[TResponse](RequestData requestData)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.DoRequest[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.Bulk[TResponse](PostData body, BulkRequestParameters requestParameters)
+   at NLog.Targets.ElasticSearch.ElasticSearchTarget.SendBatch(ICollection`1 logEvents)
+2020-02-25 17:25:51.6557 Error ElasticSearch: Error while sending log messages Exception: Elasticsearch.Net.UnexpectedElasticsearchClientException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+ ---> System.InvalidOperationException: Method may only be called on a Type for which Type.IsGenericParameter is true.
+   at System.RuntimeType.get_DeclaringMethod()
+   at Serialize(Byte[][] , Object[] , JsonWriter& , RuntimeType , IJsonFormatterResolver )
+   at Elasticsearch.Net.Utf8Json.Resolvers.DynamicMethodAnonymousFormatter`1.Serialize(JsonWriter& writer, T value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DictionaryFormatterBase`5.Serialize(JsonWriter& writer, TDictionary value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter.Serialize(JsonWriter& writer, Object value, IJsonFormatterResolver formatterResolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.SerializeUnsafe[T](T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.Utf8Json.JsonSerializer.Serialize[T](Stream stream, T value, IJsonFormatterResolver resolver)
+   at Elasticsearch.Net.LowLevelRequestResponseSerializer.Serialize[T](T data, Stream writableStream, SerializationFormatting formatting)
+   at Elasticsearch.Net.DiagnosticsSerializerProxy.Serialize[T](T data, Stream stream, SerializationFormatting formatting)
+   at Elasticsearch.Net.PostData`1.Write(Stream writableStream, IConnectionConfigurationValues settings)
+   at Elasticsearch.Net.HttpConnection.SetContent(HttpRequestMessage message, RequestData requestData)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+   at Elasticsearch.Net.RequestPipeline.CallElasticsearch[TResponse](RequestData requestData)
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.DoRequest[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters)
+   at Elasticsearch.Net.ElasticLowLevelClient.Bulk[TResponse](PostData body, BulkRequestParameters requestParameters)
+   at NLog.Targets.ElasticSearch.ElasticSearchTarget.SendBatch(ICollection`1 logEvents)
